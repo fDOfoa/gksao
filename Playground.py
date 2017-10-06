@@ -294,6 +294,5 @@ else:
     else:
         print('sona geldik')
 
-
-
-        fasdgasgsaddgsaasdsdsdasdasdasdasdsadasdsdw
+fdsf
+testfasdfasfafasfasfsfsfdsafasdfsfsdfsdfsdffsadfasgasg

@@ -4,6 +4,8 @@ import datetime
 
 s = sched.scheduler(time.time, time.sleep)
 
+
+
 def get_size(start_path = '.'):
     total_size = 0
     for dirpath, dirnames, filenames in os.walk(start_path):
@@ -16,8 +18,9 @@ previousSize = get_size()
 
 def do_something(sc, previousSize): 
     if(previousSize != get_size()):
+        commitStr = 'git commit -m ' + str(datetime.datetime.now())
         os.system('git add .')
-        os.system('git commit -m' + datetime.datetime.now())
+        os.system("git commit -m 'testing comment' ") 
         os.system('git push')
     
     previousSize = get_size();
