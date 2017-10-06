@@ -295,4 +295,4 @@ else:
         print('sona geldik')
 
 fdsf
-testfasdfasfafasfasfsfsfdsafasdfsfsdfsdfsdffsadfasgasgfasdfasd
+testfasdfasfafasfasfsfsfdsafasdfsfsdfsdfsdffsadfasgasgfasdfasdfasdfas
