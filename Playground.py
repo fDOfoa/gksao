@@ -293,4 +293,9 @@ else:
         print('ikinci hata')
     else:
         print('sona geldik')
-boras
+
+
+
+
+
+test 
