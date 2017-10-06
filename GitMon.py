@@ -18,9 +18,8 @@ previousSize = get_size()
 
 def do_something(sc, previousSize): 
     if(previousSize != get_size()):
-        commitStr = 'git commit -m ' + "'" + str(datetime.datetime.now()) + "'"
         os.system('git add .')
-        os.system(commitStr) 
+        os.system('git commit -m ' + "'" + str(datetime.datetime.now()) + "'") 
         os.system('git push')
     
     previousSize = get_size();
