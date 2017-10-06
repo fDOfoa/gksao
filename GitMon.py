@@ -1,5 +1,6 @@
 import os
 import sched, time
+import datetime
 
 s = sched.scheduler(time.time, time.sleep)
 
@@ -16,7 +17,7 @@ previousSize = get_size()
 def do_something(sc, previousSize): 
     if(previousSize != get_size()):
         os.system('git add .')
-        os.system('git commit -m "testing Commit"')
+        os.system('git commit -m' + datetime.datetime.now())
         os.system('git push')
     
     previousSize = get_size();
