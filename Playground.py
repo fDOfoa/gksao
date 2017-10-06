@@ -293,3 +293,7 @@ else:
         print('ikinci hata')
     else:
         print('sona geldik')
+
+
+
+gksaglkslkglksgslkk
