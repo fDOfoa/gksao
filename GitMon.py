@@ -21,7 +21,7 @@ def do_something(sc, previousSize):
         os.system('git add .')
         os.system('git commit -m ' + "'" + str(datetime.datetime.now()) + "'") 
         os.system('git push')
-    
+        
     previousSize = get_size();
 
     # do your stuff
